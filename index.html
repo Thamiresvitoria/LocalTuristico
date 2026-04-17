@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Local Turístico</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav">
+      <span class="nav-logo">VISITEJA</span>
+      <ul class="nav-links">
+        <li><a href="#destaque">Início</a></li>
+        <li><a href="#pontos">Atrações</a></li>
+        <li><a href="#footer">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="header-content">
+      <p class="header-eyebrow">Descubra o Mundo</p>
+      <h1 class="header-title">Japão<em>Encanta</em></h1>
+      <p class="header-subtitle">Uma jornada entre tradição milenar e modernidade vibrante — bem-vindo ao país do sol nascente.</p>
+      <a href="#destaque" class="btn-primary">Explorar agora</a>
+    </div>
+    <div class="header-scroll-hint">↓</div>
+  </header>
+
+  <!-- SEÇÃO DE DESTAQUE -->
+  <section id="destaque" class="destaque">
+    <div class="destaque-img-wrap">
+      <img
+        src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=900&q=80"
+        alt="Vista aérea de Tóquio ao entardecer"
+        class="destaque-img"
+      />
+      <div class="destaque-badge">Destaque da Temporada</div>
+    </div>
+    <div class="destaque-text">
+      <span class="section-tag">Sobre o Destino</span>
+      <h2>Por que visitar o Japão?</h2>
+      <p>
+        O Japão é um país de contrastes fascinantes: templos seculares convivem com arranha-céus futuristas, cerimônias de chá coexistem com robótica de ponta. De Tóquio cosmopolita a Kyoto serena, cada cidade oferece uma experiência única e inesquecível.
+      </p>
+      <p>
+        Com culinária mundialmente reconhecida, paisagens de tirar o fôlego e uma hospitalidade incomparável — o <em>omotenashi</em> —, o Japão transforma qualquer viagem em memória para a vida toda.
+      </p>
+      <div class="destaque-stats">
+        <div class="stat"><span class="stat-num">47</span><span class="stat-label">Províncias</span></div>
+        <div class="stat"><span class="stat-num">3000+</span><span class="stat-label">Anos de história</span></div>
+        <div class="stat"><span class="stat-num">13M</span><span class="stat-label">Visitantes/ano</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO DE PONTOS TURÍSTICOS -->
+  <section id="pontos" class="pontos">
+    <div class="pontos-header">
+      <span class="section-tag">Atrações Imperdíveis</span>
+      <h2>Três lugares que vão te conquistar</h2>
+    </div>
+    <div class="cards-grid">
+
+      <!-- Card 1 -->
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600&q=80"
+            alt="Torre de Tóquio iluminada à noite"
+          />
+          <span class="card-tag">Urbano</span>
+        </div>
+        <div class="card-body">
+          <h3>Tóquio</h3>
+          <p>A metrópole que nunca dorme: de Shibuya ao Akihabara, Tóquio combina tradição imperial com cultura pop e gastronomia de nível mundial.</p>
+          <a href="#" class="card-link">Saiba mais →</a>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="card card--featured">
+        <div class="card-img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=600&q=80"
+            alt="Templo Fushimi Inari em Kyoto"
+          />
+          <span class="card-tag">Cultural</span>
+        </div>
+        <div class="card-body">
+          <h3>Kyoto</h3>
+          <p>Antiga capital imperial com mais de 1600 templos budistas, jardins zen e o famoso caminho dos mil torii vermelhos de Fushimi Inari.</p>
+          <a href="#" class="card-link">Saiba mais →</a>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="card">
+        <div class="card-img-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1578469645742-46cae010e5d4?w=600&q=80"
+            alt="Monte Fuji ao amanhecer"
+          />
+          <span class="card-tag">Natureza</span>
+        </div>
+        <div class="card-body">
+          <h3>Monte Fuji</h3>
+          <p>Símbolo máximo do Japão, o Fuji-san encanta com sua silhueta perfeita. Escalada, onsen nas redondezas e vistas de cartão-postal garantidas.</p>
+          <a href="#" class="card-link">Saiba mais →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer" class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">VISITEJA</span>
+        <p>Inspirando viagens inesquecíveis pelo mundo.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#destaque">Início</a></li>
+          <li><a href="#pontos">Atrações</a></li>
+          <li><a href="#">Galeria</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contato</h4>
+        <p>contato@visiteja.com.br</p>
+        <p>+55 (98) 99999-0000</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 VisiteJa Turismo. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
